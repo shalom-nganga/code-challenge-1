@@ -1,9 +1,9 @@
 let prompt = require('prompt-sync')();
 // Require the 'prompt-sync' to take what the user has fed in
-let input = prompt('Enter student\'s marks:');
+let input = prompt('feed student\'s marks:');
 //The user is asked to feed in the student's marks
 let fedinMarks = parseFloat(input);
-//parse the user input into a value and store it in the variable 'fedinMarks'
+//change           the user input into a value and store it in the variable 'fedinMarks'
 
 //The function 'grades' extracts 'marks' as a parameter and returns a grade
 

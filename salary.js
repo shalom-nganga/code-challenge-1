@@ -3,6 +3,7 @@ let input = prompt('enter salary:')
 let salary = parseFloat(input)
 
 const pay = salary
+// const nssf = 0;
 function netTax(){
 
     if(pay <=24000) return (pay *0.1)
@@ -39,27 +40,11 @@ function nhif(){
 
 console.log(("NHIF:") + (nhif(salary)))
 
-function nssf(){
 
-    const pension = (pay * 0.06)
-    return pension
-   // this is for the 3rd one
+function calculatePension (salary) {
+return salary * 0.06;
 }
+const Pensiondeduction = calculatePension(salary);
 
-console.log(("pension:")) + (nssf())
-
-console.log(("Net income:") + salary - (netTax() + nssf))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(("Net income:") + salary - (netTax() + nssf))
+console.log("Net income:", + salary - netTax() - nhif() - Pensiondeduction);

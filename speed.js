@@ -10,7 +10,7 @@ const limit = 70
 function checkspeed(speed) {
 if (speed <70) {
     //if speed is not more than the limit,return "positive"
-    return "positive";
+    return "ok";
 } else {
     //calculate points for use when limit is exeeded
     let points = Math.floor((speed - 70) /5);
@@ -18,7 +18,7 @@ if (speed <70) {
         return "license suspended";
     } else {
         //if points are within the required parameters,return the no of points 
-        return 'points: ${points}';
+        return `points: ${points}`;
     }
 }
 

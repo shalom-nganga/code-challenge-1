@@ -7,9 +7,9 @@ This README contains  a summary of this week's javascript code challenge
  in accordance with the grade parameters provided.
  
  ### How to use it 
-  1 Input the code.
-  2 insert the students marks 
-  3.the code will automatically output the grade that corresponds with the marks.
+  . Input the code.
+  . insert the students marks 
+  . the code will automatically output the grade that corresponds with the marks.
 
   ## Speed detector
   ### Objective
@@ -17,9 +17,9 @@ This README contains  a summary of this week's javascript code challenge
   points are obtained if a car doesnt meet the specific limit set.
 
  ### How to use it
- 1 insert the code.
- 2 input the speed when need be.
- 3 either "positive" will be the output if the car is within te set limit or points for speeds of 5kms above the set limit."license is suspended" will be the output if the number of points limit is achieved.
+ . insert the code.
+ . input the speed when need be.
+ . either "positive" will be the output if the car is within te set limit or points for speeds of 5kms above the set limit."license is suspended" will be the output if the number of points limit is achieved.
 
  ## Salary calculator 
  ### Objective
